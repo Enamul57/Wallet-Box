@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#dbdef3;
+}
+a{
+    text-decoration: none;
+    color:#bbb4b4;
+}
+ul{
+    list-style:none;
+}
+.home_container{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.selectRole{
+    text-align: center;
+    margin-top:10%;
+    background-color:rgb(23 34 102);
+    width:500px;
+    height:300px;
+    box-shadow: 5px 5px 10px 0  rgb(43, 62, 168);
+}
+.selectRole ul{
+    width: 250px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 0px;
+}
+.selectRole ul li{
+    text-decoration: none;
+}
+.selectRole ul li h3{
+    font-size:1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.label_class{
+    color: #113d8f;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.spanClass{
+    font-size: 1.3rem;
+    color: black;
+}
