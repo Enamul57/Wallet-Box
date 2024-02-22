@@ -3,11 +3,18 @@ body{
     box-sizing:border-box;
 }
 h1,h2,h3,h4,h5,h6{
-    color:#dbdef3;
+    color:black;
 }
 a{
     text-decoration: none;
     color:#bbb4b4;
+    padding-left:0.5em;
+    cursor:pointer;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+    
 }
 ul{
     list-style:none;
@@ -42,12 +49,27 @@ ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .label_class{
-    color: #113d8f;
+    color: #4264a5;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
 }
 
 .spanClass{
     font-size: 1.3rem;
     color: black;
+}
+.wallet_dashboard{
+    width:90%;
+    margin:0 auto;
+}
+.sub_menu{
+    display:flex;
+    flex-direction: column;
+}
+.table_head{
+    color:#4264a5;
+}
+.table_body{
+    color:black;
 }

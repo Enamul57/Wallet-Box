@@ -49,13 +49,14 @@ class AdminController extends Controller
         }
     }
 
+    
+
     public function management(){
         $users = DB::table('users')->where('role',0)->where('approve',0)->get();
         return view('pages.user_management',['users'=>$users]);
     }
 
-    public function approve(User $user){
-        $id = $user->id;
+    public function approve( $id){      
         $approve =DB::table('users')->where('id',$id)->update(['approve'=>1]);
         return back()->with('approved','The user is successfully approved');
     }
